@@ -1,0 +1,20 @@
+.body_background{
+    background-image: url("download.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px;
+}
+.login_div{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    float: none;
+    box-shadow: -5px 10px 30px grey;
+}
+.game_title{
+    font-size: 50px;
+    font-weight: bold;
+}
