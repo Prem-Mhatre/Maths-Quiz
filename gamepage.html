@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Quiz</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="quiz_game.css">
+</head>
+<body class="body_background">
+    <h4 id="playe1_name"><span id="player1_score"></span></h4>
+    <h4 id="player2_name"><span id="player2_score"></span></h4>
+    <div class="container">
+        <center>
+            <h1 class="text-capitalize game_title">Maths Quiz!</h1>
+            <br>
+            <div class="col-lg-6" id="output">
+            </div>
+            <br>
+            <br>
+            <div class="col-lg-6" id="question">
+                <h4 class="text-capitalize">Note: <span class="text-danger">Number 1 is going to multiply width number 2</span></h4>
+                <input type="number" placeholder="Number 1" id="number1" class="form-control">
+                <h3>x</h3>
+                <input type="number" placeholder="Number 2" id="number2" class="form-control">
+                <br>
+                <button class="btn btn-success" onclick="send()">Send</button>
+                <br>
+                <br>
+            </div>
+        </center>
+    </div>
+    <script src="gamepage.js"></script>
+</body>
+</html>
