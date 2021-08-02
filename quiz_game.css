@@ -1,9 +1,11 @@
 .body_background{
     background-image: url("download.jpg");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    padding: 122px;
+    
+}
+center{
+    padding: 10px;
 }
 .login_div{
     background-color: white;
@@ -24,6 +26,9 @@
     padding: 10px;
     border-radius: 10px;
     box-shadow: -5px 10px 27px grey;
+}
+#output{
+    text-align: left;
 }
 #question button{
     border: none !important;
